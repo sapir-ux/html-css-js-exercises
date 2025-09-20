@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; background:#111; color:#eee; }
+h1 { margin: 16px; }
+
+.board { border-collapse: collapse; margin: 16px; }
+.board td {
+  width: 40px; height: 40px;
+  border: 1px solid #666; text-align: center; vertical-align: middle;
+  background: #cfcfcf; cursor: pointer; font-weight: 600;
+}
+.board td.shown { background: #e9e9e9; cursor: default; }
+.board td.mine { background: #f66; color: #000; }
+.board td.flag { background: #cfe6ff; }
